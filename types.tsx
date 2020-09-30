@@ -15,3 +15,19 @@ export type TabOneParamList = {
 export type TabTwoParamList = {
   TabTwoScreen: undefined;
 };
+
+export type AlbumType = {
+  id: string;
+  name: string;
+  headline: string;
+  imageURI: string;
+  by: string;
+  likes: number;
+}
+
+export type SongType = {
+  id: string;
+  imageURI: string;
+  title: string;
+  artist: string;
+}
